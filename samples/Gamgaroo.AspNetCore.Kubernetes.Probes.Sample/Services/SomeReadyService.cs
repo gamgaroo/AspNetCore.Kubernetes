@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Gamgaroo.AspNetCore.Kubernetes.Probes.Abstractions;
 
-namespace Gamgaroo.AspNetCore.Kubernetes.Probes.Sample
+namespace Gamgaroo.AspNetCore.Kubernetes.Probes.Sample.Services
 {
     public sealed class SomeReadyService : IReadinessService
     {
