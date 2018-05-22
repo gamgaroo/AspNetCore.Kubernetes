@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Create a class implementing _IReadinessService_ or _ILivenessService_ with your custom logic
+Create a class implementing _IReadinessService_ or _ILivenessService_ with your custom logic:
 
 ```csharp
 public sealed class SomeLivenessService : ILivenessService
@@ -16,7 +16,7 @@ public sealed class SomeLivenessService : ILivenessService
 ```
 Edit _Startup.cs_:
 
-1) Register your Liveness and Readiness services in _ConfigureServices_ method
+1) Register your Liveness and Readiness services in _ConfigureServices_ method:
 
 ```csharp
 public void ConfigureServices(IServiceCollection services)
