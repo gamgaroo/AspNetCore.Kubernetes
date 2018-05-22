@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7955FC66-7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamgaroo.AspNetCore.Kubernetes.Probes", "src\Gamgaroo.AspNetCore.Kubernetes.Probes\Gamgaroo.AspNetCore.Kubernetes.Probes.csproj", "{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{9F6F3B0C-B22D-4BF1-8A1D-B2CB67DCD478}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gamgaroo.AspNetCore.Kubernetes.Probes.Sample", "samples\Gamgaroo.AspNetCore.Kubernetes.Probes.Sample\Gamgaroo.AspNetCore.Kubernetes.Probes.Sample.csproj", "{59EFBB4C-7993-407D-BCFD-9C5C63748140}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +23,17 @@ Global
 		{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EFBB4C-7993-407D-BCFD-9C5C63748140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EFBB4C-7993-407D-BCFD-9C5C63748140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EFBB4C-7993-407D-BCFD-9C5C63748140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EFBB4C-7993-407D-BCFD-9C5C63748140}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6CDA336F-5F07-4BF6-B61E-628793A5C9A5} = {6FEC93AE-AD1B-45FC-BAF9-81DF1A155234}
+		{59EFBB4C-7993-407D-BCFD-9C5C63748140} = {9F6F3B0C-B22D-4BF1-8A1D-B2CB67DCD478}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BAAEF95-5ECA-4497-A36F-A67A4421635D}
