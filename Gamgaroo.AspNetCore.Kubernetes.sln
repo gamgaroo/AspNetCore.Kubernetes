@@ -7,9 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6FEC93AE-AD1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7955FC66-729B-4CF5-B7D4-2A1587977FCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamgaroo.AspNetCore.Kubernetes.Probes", "src\Gamgaroo.AspNetCore.Kubernetes.Probes\Gamgaroo.AspNetCore.Kubernetes.Probes.csproj", "{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CDA336F-5F07-4BF6-B61E-628793A5C9A5} = {6FEC93AE-AD1B-45FC-BAF9-81DF1A155234}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BAAEF95-5ECA-4497-A36F-A67A4421635D}
