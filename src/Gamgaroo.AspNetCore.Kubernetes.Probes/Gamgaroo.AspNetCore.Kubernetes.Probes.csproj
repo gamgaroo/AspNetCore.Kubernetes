@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>davidorbelian</Authors>
+    <Company>Gamgaroo Studios</Company>
+    <Copyright>Copyright (c) 2018 Gamgaroo Studios</Copyright>
+    <Description>Extensions for implementing liveness and readiness probes in AspNetCore applications for Kubernetes.</Description>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/Gamgaroo/AspNetCore.Kubernetes/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Gamgaroo/AspNetCore.Kubernetes</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Gamgaroo/AspNetCore.Kubernetes</RepositoryUrl>
+    <PackageTags>AspNetCore Kubernetes Liveness Readiness Probes Extensions</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
