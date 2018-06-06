@@ -44,7 +44,7 @@ namespace Gamgaroo.AspNetCore.Kubernetes.Probes
 
         private static bool IsProbeRequest(HttpContext context, string path)
         {
-            return string.Equals(path, context.Request.Path, StringComparison.InvariantCultureIgnoreCase);
+            return string.Equals(path, context.Request.Path, StringComparison.OrdinalIgnoreCase);
         }
     }
 }
