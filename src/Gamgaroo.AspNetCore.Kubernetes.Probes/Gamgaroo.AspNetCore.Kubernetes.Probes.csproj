@@ -11,6 +11,8 @@
     <RepositoryUrl>https://github.com/Gamgaroo/AspNetCore.Kubernetes</RepositoryUrl>
     <PackageTags>AspNetCore Kubernetes Liveness Readiness Probes Extensions</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageId>Gamgaroo.AspNetCore.Kubernetes.Probes</PackageId>
+    <Product>Gamgaroo.AspNetCore.Kubernetes</Product>
   </PropertyGroup>
 
   <ItemGroup>
