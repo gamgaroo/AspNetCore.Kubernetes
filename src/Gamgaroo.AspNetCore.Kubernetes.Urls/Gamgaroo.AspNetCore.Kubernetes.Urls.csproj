@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <PackageId>Gamgaroo.AspNetCore.Kubernetes.Probes</PackageId>
+    <Authors>davidorbelian</Authors>
+    <Company>Gamgaroo Studios</Company>
+    <Description>Extensions for rewriting URLs in AspNetCore applications for Kubernetes.</Description>
+    <Copyright>Copyright (c) 2018 Gamgaroo Studios</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/Gamgaroo/AspNetCore.Kubernetes/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Gamgaroo/AspNetCore.Kubernetes</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Gamgaroo/AspNetCore.Kubernetes</RepositoryUrl>
+    <PackageTags>AspNetCore Kubernetes URL Rewrite Extensions</PackageTags>
+    <Product>Gamgaroo.AspNetCore.Kubernetes</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>

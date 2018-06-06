@@ -7,11 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6FEC93AE-AD1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7955FC66-729B-4CF5-B7D4-2A1587977FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamgaroo.AspNetCore.Kubernetes.Probes", "src\Gamgaroo.AspNetCore.Kubernetes.Probes\Gamgaroo.AspNetCore.Kubernetes.Probes.csproj", "{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gamgaroo.AspNetCore.Kubernetes.Probes", "src\Gamgaroo.AspNetCore.Kubernetes.Probes\Gamgaroo.AspNetCore.Kubernetes.Probes.csproj", "{6CDA336F-5F07-4BF6-B61E-628793A5C9A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{9F6F3B0C-B22D-4BF1-8A1D-B2CB67DCD478}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gamgaroo.AspNetCore.Kubernetes.Probes.Sample", "samples\Gamgaroo.AspNetCore.Kubernetes.Probes.Sample\Gamgaroo.AspNetCore.Kubernetes.Probes.Sample.csproj", "{59EFBB4C-7993-407D-BCFD-9C5C63748140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamgaroo.AspNetCore.Kubernetes.Urls", "src\Gamgaroo.AspNetCore.Kubernetes.Urls\Gamgaroo.AspNetCore.Kubernetes.Urls.csproj", "{DA40D32D-1FD1-451E-902D-3E9886E74400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamgaroo.AspNetCore.Kubernetes.Urls.Sample", "samples\Gamgaroo.AspNetCore.Kubernetes.Urls.Sample\Gamgaroo.AspNetCore.Kubernetes.Urls.Sample.csproj", "{CC56473D-A20A-4B1B-9115-18A5F9BD5A44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{59EFBB4C-7993-407D-BCFD-9C5C63748140}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59EFBB4C-7993-407D-BCFD-9C5C63748140}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59EFBB4C-7993-407D-BCFD-9C5C63748140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA40D32D-1FD1-451E-902D-3E9886E74400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA40D32D-1FD1-451E-902D-3E9886E74400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA40D32D-1FD1-451E-902D-3E9886E74400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA40D32D-1FD1-451E-902D-3E9886E74400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC56473D-A20A-4B1B-9115-18A5F9BD5A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC56473D-A20A-4B1B-9115-18A5F9BD5A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC56473D-A20A-4B1B-9115-18A5F9BD5A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC56473D-A20A-4B1B-9115-18A5F9BD5A44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +46,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6CDA336F-5F07-4BF6-B61E-628793A5C9A5} = {6FEC93AE-AD1B-45FC-BAF9-81DF1A155234}
 		{59EFBB4C-7993-407D-BCFD-9C5C63748140} = {9F6F3B0C-B22D-4BF1-8A1D-B2CB67DCD478}
+		{DA40D32D-1FD1-451E-902D-3E9886E74400} = {6FEC93AE-AD1B-45FC-BAF9-81DF1A155234}
+		{CC56473D-A20A-4B1B-9115-18A5F9BD5A44} = {9F6F3B0C-B22D-4BF1-8A1D-B2CB67DCD478}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BAAEF95-5ECA-4497-A36F-A67A4421635D}
